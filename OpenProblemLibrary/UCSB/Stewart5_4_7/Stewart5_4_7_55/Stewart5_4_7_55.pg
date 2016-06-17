@@ -51,6 +51,6 @@ $PAR
 
 END_TEXT
 
-ANS(num_cmp(atan(1/sqrt($a))));
+ANS(num_cmp(atan($a/sqrt($a))-atan(1/sqrt($a))));
 
 ENDDOCUMENT();
